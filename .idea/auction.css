@@ -1,0 +1,126 @@
+body{
+    background-color: ghostwhite;
+}
+.navaLogo{
+    font-size: 2rem;
+}
+.navelement{
+    margin-top: -13px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 7rem;
+}
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 200px;
+
+}
+header .navbar ul li{
+    margin: 0 1rem;
+
+}
+header .navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0e77c2;
+}
+header .navbar ul li a:hover{
+    color: black;
+}
+.logo{
+    text-decoration: none;
+    color: #0e77c2;
+}
+.home-button{
+    height: 50px;
+    border: none;
+    background-color:ghostwhite;
+
+}
+.appoint-button{
+    height: 50px;
+    margin-left: 30px;
+    border: none;
+    background-color: ghostwhite;
+}
+.searchForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.searchForm input[type="text"] {
+    height: 40px;
+    width: 250px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchForm button {
+    height: 40px;
+    width: 80px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+
+.searchForm button:hover {
+    background-color: #0056b3;
+}
+.products{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+.product img{
+    width: 290px;
+    height: 220px;
+}
+.account{
+    background-color:  #007BFF;
+    margin-top: 50px;
+    width: 1150px;
+    height: 250px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+.text{
+    color: white;
+    margin-left: 400px;
+   font-size: 70px;
+}
+.sign-up{
+    margin-left: 450px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.sign-up:hover{
+    background-color: ghostwhite;
+}
+.sign-in{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+}
+.sign-in:hover{
+    background-color: ghostwhite;
+}
+
+
+
