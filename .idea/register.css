@@ -1,7 +1,7 @@
 body{
-    /*background-image: url("../images/WhatsApp Image 2025-04-25 at 12.05.56_e3dd2e17.jpg");*/
-    background-color:  #0e77c2;
-
+    background-image: url("../images/209623814-beautiful-sunset-view-on-lago-di-limides-in-the-falzarego-pass-dolomites-italy.jpg");
+    background-size: cover;
+    background-position: center;
 }
 .registration {
     background-color: white;
@@ -62,4 +62,15 @@ button:hover{
     width: 400px;
     margin-left: 400px;
     margin-top: 50px;
+}
+.container{
+    width: 500px;
+    margin-left: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.userForm:hover{
+    color: blue;
 }
